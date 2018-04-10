@@ -56,11 +56,6 @@ class Plugin
     public $pluginDir;
 
     /**
-     * @var Object
-     */
-    public $scripts;
-
-    /**
      * @var string Plugins url for this plugin.
      */
     public $pluginUrl;
@@ -98,11 +93,6 @@ class Plugin
         }
 
         return self::$instance;
-    }
-
-    public function settings()
-    {
-        return $this->settings;
     }
 }
 
